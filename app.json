@@ -5,27 +5,27 @@
   "env": {
     "API_KEY": {
       "description": "Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
-      "required": true
+      "required": false
     },
     "API_HASH": {
       "description": "Dapatkan API Hash di web my.telegram.org",
-      "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "Buat Bot di t.me/botfather Masukan BOT tokennya disini〔 Bila Tidak tau bisa di /skip 〕",
       "required": false
+    },
+    "7201325421:AAFIoLz_c15Cw7gGHYPZDPC1gKLtVeDDtUY": {
+      "description": "Buat Bot di t.me/botfather Masukan BOT tokennya disini〔 Bila Tidak tau bisa di /skip 〕",
+      "required": true
     },
      "STRING_SESSION": {
       "description": "Dapatkan String Session di Grup » https://t.me/SharingUserbot » Lalu ketik #string",
-      "required": true
+      "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
-      "required": true
+      "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
-      "required": true
+      "required": false
     }
   },
   "addons": [
